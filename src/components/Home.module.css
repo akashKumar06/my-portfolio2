@@ -1,0 +1,17 @@
+
+.name {
+  margin-top: 4rem;
+  font-weight: 900;
+  font-size: 4rem;
+}
+.srtDesc {
+  margin-top: -1rem;
+  font-size: 1.5rem;
+  color: #cba135;
+  font-weight: 700;
+  font-style: italic;
+}
+.description {
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}
