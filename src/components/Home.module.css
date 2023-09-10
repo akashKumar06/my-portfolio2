@@ -1,6 +1,5 @@
-
+/* 
 .name {
-  margin-top: 4rem;
   font-weight: 900;
   font-size: 4rem;
 }
@@ -11,7 +10,90 @@
   font-weight: 700;
   font-style: italic;
 }
+
 .description {
+  z-index: 20;
   font-size: 1.2rem;
   margin-top: 2rem;
+}
+
+.content{
+  margin-top:-2rem;
+  display: flex;
+  align-items: center;
+  z-index: 10;
+}
+
+.img{
+  margin-left:7rem;
+  width:25rem;
+} */
+
+@media (max-width: 600px) {
+  .container {
+   
+  }
+
+  .content {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+
+  .img {
+    position: relative;
+    width: 90%;
+    margin-top: -4rem;
+  }
+
+  .name {
+    font-size: 13vw;
+    font-weight: 900;
+    color: #ccc;
+  }
+
+  .srtDesc {
+    font-size: 5vw;
+    text-align: center;
+    margin-top: -1rem;
+    color: #FFC640;
+    font-weight: bold;
+  }
+
+  .description{
+    margin: -2rem 1rem 0 1rem;
+    padding: 1rem;
+    text-align: justify;
+  }
+
+  .description h1{
+    color:#ccc;
+    text-align: center;
+  }
+
+  .description div{
+    background-color: #FFEEC6;
+    padding: 1rem;
+    border-radius: 10px;
+  }
+
+  .skills{
+    margin:1rem;
+    padding:1rem;
+  }
+
+  .skill{
+    display: flex;
+    background-color: #ccc;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 0.3rem 0;
+  }
+  .skill span{
+    display: inline-block;
+    padding-left: 1rem;
+    width: 5rem;
+    overflow:hidden;
+    background-color: #fdc33c;
+  }
 }

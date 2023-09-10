@@ -1,4 +1,4 @@
-.ul{
+/* .ul{
     background-color: #BDD9BF;
     margin:0px;
     width: 20rem;
@@ -16,4 +16,10 @@
     font-weight: 700;
     text-decoration: none;
     color: black;
+} */
+
+@media(max-width: 600px){
+    .ul{
+        display: none;
+    }
 }

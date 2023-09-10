@@ -1,0 +1,33 @@
+@media (max-width: 600px) {
+  .container {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.75);
+    z-index: 10;
+  }
+
+  .lists {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 60%;
+    padding-top: 2rem;
+    background-color: black;
+    height: 100vh;
+    color: white;
+    z-index: 20;
+  }
+
+  .lists li{
+    list-style-type: none;
+    margin:1rem;
+  }
+
+  .lists li a{
+    text-decoration: none;
+    color: #ffc640cb;
+    font-weight: 700;
+    font-size: 1.2rem;
+  }
+}
